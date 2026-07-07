@@ -57,7 +57,7 @@ npm install
 The frontend uses a single environment variable for the API base URL:
 
 ```env
-VITE_API_BASE_URL=http://localhost:4000
+VITE_API_BASE_URL=http://localhost:3000
 ```
 
 If the variable is not set, the app falls back to http://localhost:4000.
