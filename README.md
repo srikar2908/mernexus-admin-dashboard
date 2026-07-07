@@ -112,8 +112,7 @@ erDiagram
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd MERN_Project
+git clone https://github.com/srikar2908/mernexus-admin-dashboard.git
 ```
 
 ### 2. Backend setup
@@ -127,7 +126,7 @@ Create a .env file in the backend directory and set the MongoDB connection URI a
 
 ```env
 MONGODB_URL=your_mongodb_atlas_connection_string
-PORT=4000
+PORT=3000
 ```
 
 Start the backend:
@@ -146,7 +145,7 @@ npm install
 Create a .env file in the frontend directory if you want to override the default API base URL:
 
 ```env
-VITE_API_BASE_URL=http://localhost:4000
+VITE_API_BASE_URL=http://localhost:5173
 ```
 
 Start the frontend:
